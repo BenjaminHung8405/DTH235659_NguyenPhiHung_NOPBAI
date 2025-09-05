@@ -41,4 +41,4 @@ jupyter lab exPart1.ipynb
 
 ## Tác giả
 
-Nguyễn Phi Hùng — mã lớp/mã học phần: DTH235659
+Nguyễn Phi Hùng — MSSV: DTH235659
