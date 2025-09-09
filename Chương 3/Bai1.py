@@ -1,8 +1,6 @@
-n = int(input("Nhập vào một năm bất kì  : "))
-if n < 0:
-    print("Vui lòng nhập số nguyên dương.") 
+print("Chương trình kiểm tra năm nhuần")
+year=int(input("Mời Thím nhập vào 1 năm:"))
+if (year % 4 ==0 and year % 100 != 0) or year % 400 == 0:
+    print("Năm", year, "là năm nhuần")
 else:
-    if (n % 4 ==0 and n % 100 != 0) or n % 400 == 0:
-        print("Năm", n, "là năm nhuần")
-    else:
-        print("Năm", n, "không nhuần") 
+    print("Năm", year, "không nhuần")
